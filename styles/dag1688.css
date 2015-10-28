@@ -1,0 +1,68 @@
+/* all */
+.row{margin-top:15px;margin-bottom:15px;}
+.hr-hidden{visibility:hidden;}
+#ie8-warning{
+			
+			text-align:center;
+			width:90%;
+			height:700px;
+			background-color:#104741;
+			color:#fff;
+			font-weight:bold;
+			white-space:pre-wrap;
+			z-index:50;
+			position:absolute;
+			margin-left:5%;
+			margin-right:5%;
+			padding:15px;
+			line-height:2em;
+			letter-spacing:2px;
+			}
+img{max-width:100%;
+	height:auto;}
+	
+h3.text-primary{text-align:center;}
+h3 {margin-bottom:15px;}
+
+
+/* header */
+.navbar,.navbar-header,.navbar-nav{min-height: 75px;}
+.navbar{margin-bottom: 0px;}
+.navbar-default{background-color:#fff;}
+img[src="images/header-background.jpg"]{margin-top:5%;}
+button[class="navbar-toggle"]{margin-top:15px;}
+		
+		
+/* main */
+#main{background-color:#fff;margin-top:80px;}
+#brand-world{text-align:center;}
+
+
+
+/* main-col */
+
+
+
+
+/* sidebar */
+#sidebar-01 h3{text-align:center;}
+#sidebar-01 p{text-indent:2em;}
+
+
+
+/* footer */
+#footer{background-color:gray;
+		color:#fff;
+		text-align:center;}
+		
+/* 手机版本 最大屏幕768px*/
+
+@media screen and (max-width: 768px) {
+
+.navbar-form{float:none;}
+img[src="images/logo.svg"]{width:170px;}
+img[src="images/header-background.jpg"]{margin-top:20%;}
+
+
+			
+}
